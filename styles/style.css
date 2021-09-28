@@ -1,0 +1,31 @@
+.pageHeader {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+
+.shop {
+    border: 1px dotted crimson;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    flex-basis: 16%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.info {
+    font-weight: normal;
+}
+
+body {
+    background-color: cornsilk;
+    color: darkslategray;
+    padding: 1;
+
+}
